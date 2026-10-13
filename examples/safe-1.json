@@ -1,0 +1,26 @@
+{
+  "worlds": {
+    "dshmemory": {
+      "enabled": false,
+      "sourceMode": "memory",
+      "dbFile": "C:/Projects/bridge-demo/.dsh-meow/memory.db",
+      "allowedProjects": "bridge-demo",
+      "includeGlobal": false,
+      "levels": "project,fact,lesson,topic,rules",
+      "watchTrigger": "record",
+      "watchIntervalSeconds": 60,
+      "writeEnabled": false,
+      "writeLevels": "fact,topic",
+      "rawEnabled": false,
+      "sessionsDir": "C:/BridgeSources/dsh-sessions",
+      "rawDir": "C:/BridgeState/dsh-raw",
+      "rawBuckets": "EXACT_ALLOWED_BUCKET_NAME",
+      "rawSyncIntervalSeconds": 0,
+      "workspaceFilesEnabled": false,
+      "workspaceRoots": "[]",
+      "workspaceDenied": "[]",
+      "workspaceMaxFileBytes": 1048576,
+      "stateDir": "C:/BridgeState/dshmemory"
+    }
+  }
+}

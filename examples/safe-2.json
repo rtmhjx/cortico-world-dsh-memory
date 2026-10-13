@@ -1,0 +1,19 @@
+{
+  "worlds": {
+    "dshmemory": {
+      "enabled": false,
+      "sourceMode": "workspace",
+      "workspaceRoots": "[\"C:/Projects/bridge-demo\"]",
+      "workspaceDenied": "[\"C:/Projects/bridge-demo/private\"]",
+      "workspaceFilesEnabled": false,
+      "workspaceMaxFileBytes": 1048576,
+      "writeEnabled": false,
+      "rawEnabled": false,
+      "sessionsDir": "C:/BridgeSources/dsh-sessions",
+      "rawBuckets": "EXACT_ALLOWED_BUCKET_NAME",
+      "rawSyncIntervalSeconds": 0,
+      "rawDir": "C:/BridgeState/dshmemory-workspace/raw-v2",
+      "stateDir": "C:/BridgeState/dshmemory-workspace"
+    }
+  }
+}
