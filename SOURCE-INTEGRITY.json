@@ -1,0 +1,61 @@
+{
+  "runtimeSourceMatchesWorkbench": true,
+  "files": [
+    {
+      "file": "src/config.ts",
+      "sha256": "cddbff96fba2e231546fe341558d7e2019f14ac74257d48e1b1dcab0c9b41490"
+    },
+    {
+      "file": "src/console-contract.ts",
+      "sha256": "db7c307c8c242a991ee1e3cf0cb44cfa229a2738925f02e80e052e65988edeea"
+    },
+    {
+      "file": "src/definition.ts",
+      "sha256": "403596a4e389db638dcaa3235bf7d57e73fdd87d57343e8fe4c1060df013da9f"
+    },
+    {
+      "file": "src/ENV_PROMPT.md",
+      "sha256": "9b21d949008523d87abc2133b49c19ef285c63cb420da91fa6d5871d52a7c810"
+    },
+    {
+      "file": "src/index.ts",
+      "sha256": "0ef3f8064c1910d28d0846b9e0ed4d9d144fb8533d898920d89d11ad46c64cb2"
+    },
+    {
+      "file": "src/raw-worker.ts",
+      "sha256": "e1a6880c8669d24952c44b180d5f832b4bf1cf8d0f8a3673f1375998324c7111"
+    },
+    {
+      "file": "src/raw.ts",
+      "sha256": "f6044043d54ecfe64c7bfbd980350594abf5fa4d901b0eaabfe6e740c22be488"
+    },
+    {
+      "file": "src/runtime.ts",
+      "sha256": "8d1cbf54be2e12c1d3d81b268fc05f2f3db973f2818b213b2bb4a8ca1e834c67"
+    },
+    {
+      "file": "src/scope.ts",
+      "sha256": "d3d30bb5a25336ce1dbb05dd8875ee6213292da88d839f065125c4885d9158c2"
+    },
+    {
+      "file": "src/store.ts",
+      "sha256": "acbcc719077e3f50745f3eec475a10e702baf98b9b405543091b923fea62da4e"
+    },
+    {
+      "file": "src/workspace.ts",
+      "sha256": "eb05eac9aa48ed43c32178ba2a3d915c79cd5162cb61d7261f8ae55da0ad8b0f"
+    },
+    {
+      "file": "src/world.ts",
+      "sha256": "b24204bfe52b9cfa66aa4fc9e05cfe180357f55824cf38a70ee7c803fe22d663"
+    },
+    {
+      "file": "src/zstd.ts",
+      "sha256": "b9e98501f33c6c51bc49c9e8fd4ea45fbed36b1e2e301e15cd074de9def3479d"
+    },
+    {
+      "file": "console.js",
+      "sha256": "778bcf0a2ba5c06450a70eb57002a184df821e721c02a543ad14459f59a223b4"
+    }
+  ]
+}

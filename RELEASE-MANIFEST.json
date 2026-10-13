@@ -1,0 +1,29 @@
+{
+  "name": "cortico-world-dsh-memory",
+  "version": "0.5.0",
+  "repository": "https://github.com/rtmhjx/cortico-world-dsh-memory",
+  "delivery": "standalone external World; GitHub source and archives; no npm publication",
+  "artifacts": [
+    {
+      "file": "cortico-world-dsh-memory-0.5.0.tgz",
+      "sha256": "e271a451f29929ac76f78404c08f1c79328edb9ab8e1371380ee25c4fce8f5d8",
+      "bytes": 87811
+    },
+    {
+      "file": "cortico-world-dsh-memory-0.5.0-source.zip",
+      "sha256": "991599b924e9881e20549b659532f4cc1bf8fca65a169295d94aa7c103b6a8e1",
+      "bytes": 157217
+    }
+  ],
+  "readmeSha256": "1810adcae3048135a0528dbfba177ec41669cee56bf64c6bbe5a1cfd74f4495f",
+  "sourceFiles": 36,
+  "runtimeSourceVerified": true,
+  "testsPassed": 160,
+  "testsSkipped": 1,
+  "validationPlatform": "Windows; Node 24.19.0; published Cortico SDK 0.1.7",
+  "typecheckPassed": true,
+  "officialExtensionContractPassed": true,
+  "productionMounted": false,
+  "stability24hAccepted": false,
+  "runtimeDataIncluded": false
+}

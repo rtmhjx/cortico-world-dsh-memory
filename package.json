@@ -1,0 +1,41 @@
+{
+  "name": "cortico-world-dsh-memory",
+  "version": "0.5.0",
+  "private": true,
+  "type": "module",
+  "description": "Scoped DSH external memory or database-free workspace conversations, with optional read-only project file access",
+  "license": "MIT",
+  "keywords": [
+    "cortico-world",
+    "cortico"
+  ],
+  "engines": {
+    "node": ">=22.15.0"
+  },
+  "main": "./src/index.ts",
+  "cortico": {
+    "kind": "world",
+    "api": 5,
+    "consoleClient": "./console.js"
+  },
+  "files": [
+    "src",
+    "console.js",
+    "scripts/audit-dsh-bridge.mjs",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "devDependencies": {
+    "cortico": "0.1.7",
+    "@types/node": "22.20.1",
+    "tsx": "4.23.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "test": "tsx --test tests/dsh-audit.test.ts tests/dsh-memory-notifications.test.ts tests/dsh-raw-regression.test.ts tests/dsh-runtime.test.ts tests/dsh-store-regression.test.ts tests/dsh-stream-review.test.ts tests/dsh-workspace.test.ts tests/dsh-world-regression.test.ts tests/memory.test.ts tests/raw.test.ts",
+    "typecheck": "tsc --project tsconfig.json",
+    "audit": "node scripts/audit-dsh-bridge.mjs",
+    "verify:package": "tsx scripts/verify-package.mjs"
+  }
+}
